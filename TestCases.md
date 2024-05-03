@@ -4,11 +4,7 @@ This is showcasing a series of detailed test cases for an online bookstore web a
 
 | Test Cases | Test Scenarios | Purpose | Steps |
 |------------|----------------|---------|-------|
-| User Authentication | User Signup - Valid Credentials | To verify that users can successfully sign up with valid credentials. | 1. Navigate to the signup page. 
-2. Enter valid email, password, and other required information. 
-3. Click on the signup button. 
-4. Verify that the user is redirected to the login page. 
-5. Check the database to confirm that the user's information is stored correctly. |
+| User Authentication | User Signup - Valid Credentials | To verify that users can successfully sign up with valid credentials. | 1. Navigate to the signup page.   2. Enter valid email, password, and other required information.   3. Click on the signup button.   4. Verify that the user is redirected to the login page.   5. Check the database to confirm that the user's information is stored correctly. |
 | | User Signup - Invalid Credentials | To verify that users cannot sign up with invalid credentials. | 1. Navigate to the signup page. 2. Enter an email that is already registered. 3. Enter a password that does not meet the minimum requirements. 4. Click on the signup button. 5. Verify that an appropriate error message is displayed. 6. Check the database to confirm that no new user is created. |
 | | User Login - Valid Credentials | To verify that users can log in with valid credentials. | 1. Navigate to the login page. 2. Enter valid email and password. 3. Click on the login button. 4. Verify that the user is redirected to the homepage. 5. Check the session storage to confirm that the user is logged in. |
 | | User Login - Invalid Credentials | To verify that users cannot log in with invalid credentials. | 1. Navigate to the login page. 2. Enter an incorrect email or password. 3. Click on the login button. 4. Verify that an appropriate error message is displayed. 5. Check the session storage to confirm that the user is not logged in. |
